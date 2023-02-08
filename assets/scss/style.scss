@@ -4,11 +4,14 @@
 //variaveis
 @import "./variaveis.scss";
 
+
 //componentes
 @import "./header.scss";
+@import "./nav-produtos.scss";
+@import "./banner-promocionais-statico.scss";
 
 //Framework
-@import './bootstrap.min.scss';
+@import "./bootstrap.min.scss";
 
-//config 
+//config
 @import "./config.scss";
