@@ -119,6 +119,51 @@ nav.nav-produtos ul.nav li ul.nav li {
   font-weight: bold;
 }
 
+.produtos {
+  margin: 30px 0;
+}
+.produtos .produtos-container {
+  margin: 30px 0;
+}
+.produtos .produtos-container .produtos-itens {
+  color: #343A40;
+}
+.produtos .produtos-container .produtos-itens h5 {
+  font-size: 19px;
+  margin: 10px 0;
+}
+.produtos .produtos-container .produtos-itens .produtos-stars {
+  font-size: 10px;
+}
+.produtos .produtos-container .produtos-itens .produtos-stars svg {
+  fill: #FFC107;
+}
+.produtos .produtos-container .produtos-itens .produtos-preco {
+  font-size: 16px;
+}
+
+footer {
+  background: #343A40;
+  padding: 25px 0;
+  color: #FFF;
+}
+footer a {
+  color: #FFF;
+}
+footer a:hover {
+  color: #FFF;
+}
+footer h4 {
+  color: #FFC107;
+  font-size: 19px;
+}
+footer ul li.ellipsis {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 /*!
 * Bootstrap  v5.3.0-alpha1 (https://getbootstrap.com/)
 * Copyright 2011-2022 The Bootstrap Authors
@@ -11970,6 +12015,10 @@ h4,
 h5 {
   font-weight: bold;
   margin: 10px 0;
+}
+
+.btn-warning {
+  margin-bottom: 54px;
 }
 
 /*# sourceMappingURL=style.css.map */
