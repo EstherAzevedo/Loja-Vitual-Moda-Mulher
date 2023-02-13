@@ -130,7 +130,7 @@ nav.nav-produtos ul.nav li ul.nav li {
 }
 .produtos .produtos-container .produtos-itens h5 {
   font-size: 19px;
-  margin: 10px 0;
+  margin: 10px 0 0;
 }
 .produtos .produtos-container .produtos-itens .produtos-stars {
   font-size: 10px;
@@ -164,6 +164,25 @@ footer ul li.ellipsis {
   white-space: nowrap;
 }
 
+@media (max-width: 375px) {
+  .banners-promocionais-statico .banners-promocionais-statico-12x p,
+  .banners-promocionais-statico .banners-promocionais-statico-todo-br p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  header form {
+    margin: 20px 0;
+  }
+  #banners-promocionais {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  header ul li {
+    margin: 7px 0;
+  }
+}
 /*!
 * Bootstrap  v5.3.0-alpha1 (https://getbootstrap.com/)
 * Copyright 2011-2022 The Bootstrap Authors
@@ -12015,10 +12034,6 @@ h4,
 h5 {
   font-weight: bold;
   margin: 10px 0;
-}
-
-.btn-warning {
-  margin-bottom: 54px;
 }
 
 /*# sourceMappingURL=style.css.map */

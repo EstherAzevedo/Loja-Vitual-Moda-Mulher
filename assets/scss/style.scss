@@ -11,14 +11,10 @@
 @import "./banner-promocionais-statico.scss";
 @import "./produtos.scss";
 @import "./footer.scss";
+@import "./responsivo.scss";
 
 //Framework
 @import "./bootstrap.min.scss";
 
 //config
 @import "./config.scss";
-
-
-.btn-warning {
-  margin-bottom: 54px;
-}
