@@ -177,6 +177,9 @@ footer ul li.ellipsis {
   #banners-promocionais {
     display: none;
   }
+  .produtos-container img {
+    width: 100%;
+  }
 }
 @media (max-width: 991px) {
   header ul li {
@@ -12015,6 +12018,15 @@ textarea.form-control-lg {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+.breadcrumb {
+  background: initial;
+  margin: 40px 0;
+  padding: 0;
+}
+.breadcrumb a {
+  color: #FF0F9A;
+}
+
 body {
   color: #343A40;
 }
